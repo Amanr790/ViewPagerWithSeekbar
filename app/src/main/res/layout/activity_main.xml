@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cbs="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_emotions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <com.viewpagerslider.ComboSeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cbs:color="@android:color/white"
+        cbs:textSize="16sp"
+        cbs:thumbRadius="25dp"
+        cbs:layout_constraintBottom_toBottomOf="parent"
+        cbs:textBottomPadding="20dp"
+        android:thumb="@drawable/ic_arrow_drop_down_circle_black_24dp"
+        />
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        />
+</android.support.constraint.ConstraintLayout>
+
+
